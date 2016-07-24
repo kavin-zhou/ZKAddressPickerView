@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5810C7FF1D4464F900788BB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C7FE1D4464F900788BB7 /* main.m */; };
+		5810C8021D4464F900788BB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C8011D4464F900788BB7 /* AppDelegate.m */; };
+		5810C80A1D4464F900788BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5810C8091D4464F900788BB7 /* Assets.xcassets */; };
+		5810C80D1D4464F900788BB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5810C80B1D4464F900788BB7 /* LaunchScreen.storyboard */; };
+		5810C8181D4464F900788BB7 /* ZKAddressPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C8171D4464F900788BB7 /* ZKAddressPickerViewTests.m */; };
+		5810C8231D4464F900788BB7 /* ZKAddressPickerViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C8221D4464F900788BB7 /* ZKAddressPickerViewUITests.m */; };
+		5810C8351D44657900788BB7 /* ZKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C8331D44657900788BB7 /* ZKMainViewController.m */; };
+		5810C8361D44657900788BB7 /* ZKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5810C8341D44657900788BB7 /* ZKMainViewController.xib */; };
+		5810C8391D4466E400788BB7 /* ZKAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C8381D4466E400788BB7 /* ZKAddressPickerView.m */; };
+		5810C83B1D44671400788BB7 /* ZKAddressPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5810C83A1D44671400788BB7 /* ZKAddressPickerView.xib */; };
+		5810C83E1D4468D900788BB7 /* ZKProvinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C83D1D4468D900788BB7 /* ZKProvinceModel.m */; };
+		5810C8541D446C8600788BB7 /* ZKAddressListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C8531D446C8600788BB7 /* ZKAddressListModel.m */; };
+		5810C8571D446D0800788BB7 /* ZKGlobalConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C8561D446D0800788BB7 /* ZKGlobalConfig.m */; };
+		5810C85A1D446EFB00788BB7 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C8591D446EFB00788BB7 /* UIView+AutoLayout.m */; };
+		5810C8601D44770B00788BB7 /* address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5810C85F1D44770B00788BB7 /* address.plist */; };
+		5810C87A1D44A7CA00788BB7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5810C8641D44A7CA00788BB7 /* Info.plist */; };
+		5810C87B1D44A7CA00788BB7 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C8671D44A7CA00788BB7 /* MJExtensionConst.m */; };
+		5810C87C1D44A7CA00788BB7 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C8691D44A7CA00788BB7 /* MJFoundation.m */; };
+		5810C87D1D44A7CA00788BB7 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C86B1D44A7CA00788BB7 /* MJProperty.m */; };
+		5810C87E1D44A7CA00788BB7 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C86D1D44A7CA00788BB7 /* MJPropertyKey.m */; };
+		5810C87F1D44A7CA00788BB7 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C86F1D44A7CA00788BB7 /* MJPropertyType.m */; };
+		5810C8801D44A7CA00788BB7 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C8711D44A7CA00788BB7 /* NSObject+MJClass.m */; };
+		5810C8811D44A7CA00788BB7 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C8731D44A7CA00788BB7 /* NSObject+MJCoding.m */; };
+		5810C8821D44A7CA00788BB7 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C8751D44A7CA00788BB7 /* NSObject+MJKeyValue.m */; };
+		5810C8831D44A7CA00788BB7 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C8771D44A7CA00788BB7 /* NSObject+MJProperty.m */; };
+		5810C8841D44A7CA00788BB7 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5810C8791D44A7CA00788BB7 /* NSString+MJExtension.m */; };
+		5810C88A1D44AFBE00788BB7 /* datepick_dashline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5810C8881D44AFBE00788BB7 /* datepick_dashline@2x.png */; };
+		5810C88B1D44AFBE00788BB7 /* datepick_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5810C8891D44AFBE00788BB7 /* datepick_top@2x.png */; };
+		5810C88D1D44B11900788BB7 /* datepick_check_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5810C88C1D44B11900788BB7 /* datepick_check_icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5810C8141D4464F900788BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5810C7F21D4464F900788BB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5810C7F91D4464F900788BB7;
+			remoteInfo = ZKAddressPickerView;
+		};
+		5810C81F1D4464F900788BB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5810C7F21D4464F900788BB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5810C7F91D4464F900788BB7;
+			remoteInfo = ZKAddressPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5810C7FA1D4464F900788BB7 /* ZKAddressPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKAddressPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5810C7FE1D4464F900788BB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5810C8001D4464F900788BB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5810C8011D4464F900788BB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5810C8091D4464F900788BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5810C80C1D4464F900788BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5810C80E1D4464F900788BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5810C8131D4464F900788BB7 /* ZKAddressPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKAddressPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5810C8171D4464F900788BB7 /* ZKAddressPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKAddressPickerViewTests.m; sourceTree = "<group>"; };
+		5810C8191D4464F900788BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5810C81E1D4464F900788BB7 /* ZKAddressPickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKAddressPickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5810C8221D4464F900788BB7 /* ZKAddressPickerViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKAddressPickerViewUITests.m; sourceTree = "<group>"; };
+		5810C8241D4464F900788BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5810C8321D44657900788BB7 /* ZKMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKMainViewController.h; sourceTree = "<group>"; };
+		5810C8331D44657900788BB7 /* ZKMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKMainViewController.m; sourceTree = "<group>"; };
+		5810C8341D44657900788BB7 /* ZKMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKMainViewController.xib; sourceTree = "<group>"; };
+		5810C8371D4466E400788BB7 /* ZKAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKAddressPickerView.h; sourceTree = "<group>"; };
+		5810C8381D4466E400788BB7 /* ZKAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKAddressPickerView.m; sourceTree = "<group>"; };
+		5810C83A1D44671400788BB7 /* ZKAddressPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKAddressPickerView.xib; sourceTree = "<group>"; };
+		5810C83C1D4468D900788BB7 /* ZKProvinceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKProvinceModel.h; sourceTree = "<group>"; };
+		5810C83D1D4468D900788BB7 /* ZKProvinceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKProvinceModel.m; sourceTree = "<group>"; };
+		5810C8521D446C8600788BB7 /* ZKAddressListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKAddressListModel.h; sourceTree = "<group>"; };
+		5810C8531D446C8600788BB7 /* ZKAddressListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKAddressListModel.m; sourceTree = "<group>"; };
+		5810C8551D446D0800788BB7 /* ZKGlobalConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKGlobalConfig.h; sourceTree = "<group>"; };
+		5810C8561D446D0800788BB7 /* ZKGlobalConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKGlobalConfig.m; sourceTree = "<group>"; };
+		5810C8581D446EFB00788BB7 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		5810C8591D446EFB00788BB7 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		5810C85E1D44724700788BB7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5810C85F1D44770B00788BB7 /* address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = address.plist; sourceTree = "<group>"; };
+		5810C8641D44A7CA00788BB7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5810C8651D44A7CA00788BB7 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		5810C8661D44A7CA00788BB7 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		5810C8671D44A7CA00788BB7 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		5810C8681D44A7CA00788BB7 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		5810C8691D44A7CA00788BB7 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		5810C86A1D44A7CA00788BB7 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		5810C86B1D44A7CA00788BB7 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		5810C86C1D44A7CA00788BB7 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		5810C86D1D44A7CA00788BB7 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		5810C86E1D44A7CA00788BB7 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		5810C86F1D44A7CA00788BB7 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		5810C8701D44A7CA00788BB7 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		5810C8711D44A7CA00788BB7 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		5810C8721D44A7CA00788BB7 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		5810C8731D44A7CA00788BB7 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		5810C8741D44A7CA00788BB7 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		5810C8751D44A7CA00788BB7 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		5810C8761D44A7CA00788BB7 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		5810C8771D44A7CA00788BB7 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		5810C8781D44A7CA00788BB7 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		5810C8791D44A7CA00788BB7 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		5810C8881D44AFBE00788BB7 /* datepick_dashline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "datepick_dashline@2x.png"; sourceTree = "<group>"; };
+		5810C8891D44AFBE00788BB7 /* datepick_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "datepick_top@2x.png"; sourceTree = "<group>"; };
+		5810C88C1D44B11900788BB7 /* datepick_check_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "datepick_check_icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5810C7F71D4464F900788BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5810C8101D4464F900788BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5810C81B1D4464F900788BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5810C7F11D4464F900788BB7 = {
+			isa = PBXGroup;
+			children = (
+				5810C7FC1D4464F900788BB7 /* ZKAddressPickerView */,
+				5810C8161D4464F900788BB7 /* ZKAddressPickerViewTests */,
+				5810C8211D4464F900788BB7 /* ZKAddressPickerViewUITests */,
+				5810C7FB1D4464F900788BB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5810C7FB1D4464F900788BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5810C7FA1D4464F900788BB7 /* ZKAddressPickerView.app */,
+				5810C8131D4464F900788BB7 /* ZKAddressPickerViewTests.xctest */,
+				5810C81E1D4464F900788BB7 /* ZKAddressPickerViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5810C7FC1D4464F900788BB7 /* ZKAddressPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				5810C8001D4464F900788BB7 /* AppDelegate.h */,
+				5810C8011D4464F900788BB7 /* AppDelegate.m */,
+				5810C8301D44653300788BB7 /* Classes */,
+				5810C8311D44653300788BB7 /* ZKPickerView */,
+				5810C7FD1D4464F900788BB7 /* Supporting Files */,
+			);
+			path = ZKAddressPickerView;
+			sourceTree = "<group>";
+		};
+		5810C7FD1D4464F900788BB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5810C8091D4464F900788BB7 /* Assets.xcassets */,
+				5810C80B1D4464F900788BB7 /* LaunchScreen.storyboard */,
+				5810C80E1D4464F900788BB7 /* Info.plist */,
+				5810C7FE1D4464F900788BB7 /* main.m */,
+				5810C85E1D44724700788BB7 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5810C8161D4464F900788BB7 /* ZKAddressPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5810C8171D4464F900788BB7 /* ZKAddressPickerViewTests.m */,
+				5810C8191D4464F900788BB7 /* Info.plist */,
+			);
+			path = ZKAddressPickerViewTests;
+			sourceTree = "<group>";
+		};
+		5810C8211D4464F900788BB7 /* ZKAddressPickerViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5810C8221D4464F900788BB7 /* ZKAddressPickerViewUITests.m */,
+				5810C8241D4464F900788BB7 /* Info.plist */,
+			);
+			path = ZKAddressPickerViewUITests;
+			sourceTree = "<group>";
+		};
+		5810C8301D44653300788BB7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5810C8321D44657900788BB7 /* ZKMainViewController.h */,
+				5810C8331D44657900788BB7 /* ZKMainViewController.m */,
+				5810C8341D44657900788BB7 /* ZKMainViewController.xib */,
+				5810C8551D446D0800788BB7 /* ZKGlobalConfig.h */,
+				5810C8561D446D0800788BB7 /* ZKGlobalConfig.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5810C8311D44653300788BB7 /* ZKPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				5810C8371D4466E400788BB7 /* ZKAddressPickerView.h */,
+				5810C8381D4466E400788BB7 /* ZKAddressPickerView.m */,
+				5810C83A1D44671400788BB7 /* ZKAddressPickerView.xib */,
+				5810C83C1D4468D900788BB7 /* ZKProvinceModel.h */,
+				5810C83D1D4468D900788BB7 /* ZKProvinceModel.m */,
+				5810C8521D446C8600788BB7 /* ZKAddressListModel.h */,
+				5810C8531D446C8600788BB7 /* ZKAddressListModel.m */,
+				5810C83F1D4469D200788BB7 /* Supporting */,
+			);
+			path = ZKPickerView;
+			sourceTree = "<group>";
+		};
+		5810C83F1D4469D200788BB7 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				5810C8871D44AFBE00788BB7 /* Images */,
+				5810C8631D44A7CA00788BB7 /* MJExtension */,
+				5810C85F1D44770B00788BB7 /* address.plist */,
+				5810C8581D446EFB00788BB7 /* UIView+AutoLayout.h */,
+				5810C8591D446EFB00788BB7 /* UIView+AutoLayout.m */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		5810C8631D44A7CA00788BB7 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				5810C8641D44A7CA00788BB7 /* Info.plist */,
+				5810C8651D44A7CA00788BB7 /* MJExtension.h */,
+				5810C8661D44A7CA00788BB7 /* MJExtensionConst.h */,
+				5810C8671D44A7CA00788BB7 /* MJExtensionConst.m */,
+				5810C8681D44A7CA00788BB7 /* MJFoundation.h */,
+				5810C8691D44A7CA00788BB7 /* MJFoundation.m */,
+				5810C86A1D44A7CA00788BB7 /* MJProperty.h */,
+				5810C86B1D44A7CA00788BB7 /* MJProperty.m */,
+				5810C86C1D44A7CA00788BB7 /* MJPropertyKey.h */,
+				5810C86D1D44A7CA00788BB7 /* MJPropertyKey.m */,
+				5810C86E1D44A7CA00788BB7 /* MJPropertyType.h */,
+				5810C86F1D44A7CA00788BB7 /* MJPropertyType.m */,
+				5810C8701D44A7CA00788BB7 /* NSObject+MJClass.h */,
+				5810C8711D44A7CA00788BB7 /* NSObject+MJClass.m */,
+				5810C8721D44A7CA00788BB7 /* NSObject+MJCoding.h */,
+				5810C8731D44A7CA00788BB7 /* NSObject+MJCoding.m */,
+				5810C8741D44A7CA00788BB7 /* NSObject+MJKeyValue.h */,
+				5810C8751D44A7CA00788BB7 /* NSObject+MJKeyValue.m */,
+				5810C8761D44A7CA00788BB7 /* NSObject+MJProperty.h */,
+				5810C8771D44A7CA00788BB7 /* NSObject+MJProperty.m */,
+				5810C8781D44A7CA00788BB7 /* NSString+MJExtension.h */,
+				5810C8791D44A7CA00788BB7 /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		5810C8871D44AFBE00788BB7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5810C88C1D44B11900788BB7 /* datepick_check_icon@2x.png */,
+				5810C8881D44AFBE00788BB7 /* datepick_dashline@2x.png */,
+				5810C8891D44AFBE00788BB7 /* datepick_top@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5810C7F91D4464F900788BB7 /* ZKAddressPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5810C8271D4464F900788BB7 /* Build configuration list for PBXNativeTarget "ZKAddressPickerView" */;
+			buildPhases = (
+				5810C7F61D4464F900788BB7 /* Sources */,
+				5810C7F71D4464F900788BB7 /* Frameworks */,
+				5810C7F81D4464F900788BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKAddressPickerView;
+			productName = ZKAddressPickerView;
+			productReference = 5810C7FA1D4464F900788BB7 /* ZKAddressPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5810C8121D4464F900788BB7 /* ZKAddressPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5810C82A1D4464F900788BB7 /* Build configuration list for PBXNativeTarget "ZKAddressPickerViewTests" */;
+			buildPhases = (
+				5810C80F1D4464F900788BB7 /* Sources */,
+				5810C8101D4464F900788BB7 /* Frameworks */,
+				5810C8111D4464F900788BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5810C8151D4464F900788BB7 /* PBXTargetDependency */,
+			);
+			name = ZKAddressPickerViewTests;
+			productName = ZKAddressPickerViewTests;
+			productReference = 5810C8131D4464F900788BB7 /* ZKAddressPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5810C81D1D4464F900788BB7 /* ZKAddressPickerViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5810C82D1D4464F900788BB7 /* Build configuration list for PBXNativeTarget "ZKAddressPickerViewUITests" */;
+			buildPhases = (
+				5810C81A1D4464F900788BB7 /* Sources */,
+				5810C81B1D4464F900788BB7 /* Frameworks */,
+				5810C81C1D4464F900788BB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5810C8201D4464F900788BB7 /* PBXTargetDependency */,
+			);
+			name = ZKAddressPickerViewUITests;
+			productName = ZKAddressPickerViewUITests;
+			productReference = 5810C81E1D4464F900788BB7 /* ZKAddressPickerViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5810C7F21D4464F900788BB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZK;
+				TargetAttributes = {
+					5810C7F91D4464F900788BB7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					5810C8121D4464F900788BB7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5810C7F91D4464F900788BB7;
+					};
+					5810C81D1D4464F900788BB7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5810C7F91D4464F900788BB7;
+					};
+				};
+			};
+			buildConfigurationList = 5810C7F51D4464F900788BB7 /* Build configuration list for PBXProject "ZKAddressPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5810C7F11D4464F900788BB7;
+			productRefGroup = 5810C7FB1D4464F900788BB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5810C7F91D4464F900788BB7 /* ZKAddressPickerView */,
+				5810C8121D4464F900788BB7 /* ZKAddressPickerViewTests */,
+				5810C81D1D4464F900788BB7 /* ZKAddressPickerViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5810C7F81D4464F900788BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5810C83B1D44671400788BB7 /* ZKAddressPickerView.xib in Resources */,
+				5810C8601D44770B00788BB7 /* address.plist in Resources */,
+				5810C80D1D4464F900788BB7 /* LaunchScreen.storyboard in Resources */,
+				5810C88A1D44AFBE00788BB7 /* datepick_dashline@2x.png in Resources */,
+				5810C80A1D4464F900788BB7 /* Assets.xcassets in Resources */,
+				5810C8361D44657900788BB7 /* ZKMainViewController.xib in Resources */,
+				5810C88B1D44AFBE00788BB7 /* datepick_top@2x.png in Resources */,
+				5810C88D1D44B11900788BB7 /* datepick_check_icon@2x.png in Resources */,
+				5810C87A1D44A7CA00788BB7 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5810C8111D4464F900788BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5810C81C1D4464F900788BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5810C7F61D4464F900788BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5810C87B1D44A7CA00788BB7 /* MJExtensionConst.m in Sources */,
+				5810C8391D4466E400788BB7 /* ZKAddressPickerView.m in Sources */,
+				5810C83E1D4468D900788BB7 /* ZKProvinceModel.m in Sources */,
+				5810C8821D44A7CA00788BB7 /* NSObject+MJKeyValue.m in Sources */,
+				5810C8021D4464F900788BB7 /* AppDelegate.m in Sources */,
+				5810C85A1D446EFB00788BB7 /* UIView+AutoLayout.m in Sources */,
+				5810C8841D44A7CA00788BB7 /* NSString+MJExtension.m in Sources */,
+				5810C87D1D44A7CA00788BB7 /* MJProperty.m in Sources */,
+				5810C87C1D44A7CA00788BB7 /* MJFoundation.m in Sources */,
+				5810C8541D446C8600788BB7 /* ZKAddressListModel.m in Sources */,
+				5810C7FF1D4464F900788BB7 /* main.m in Sources */,
+				5810C87F1D44A7CA00788BB7 /* MJPropertyType.m in Sources */,
+				5810C8801D44A7CA00788BB7 /* NSObject+MJClass.m in Sources */,
+				5810C8811D44A7CA00788BB7 /* NSObject+MJCoding.m in Sources */,
+				5810C8351D44657900788BB7 /* ZKMainViewController.m in Sources */,
+				5810C87E1D44A7CA00788BB7 /* MJPropertyKey.m in Sources */,
+				5810C8831D44A7CA00788BB7 /* NSObject+MJProperty.m in Sources */,
+				5810C8571D446D0800788BB7 /* ZKGlobalConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5810C80F1D4464F900788BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5810C8181D4464F900788BB7 /* ZKAddressPickerViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5810C81A1D4464F900788BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5810C8231D4464F900788BB7 /* ZKAddressPickerViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5810C8151D4464F900788BB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5810C7F91D4464F900788BB7 /* ZKAddressPickerView */;
+			targetProxy = 5810C8141D4464F900788BB7 /* PBXContainerItemProxy */;
+		};
+		5810C8201D4464F900788BB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5810C7F91D4464F900788BB7 /* ZKAddressPickerView */;
+			targetProxy = 5810C81F1D4464F900788BB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5810C80B1D4464F900788BB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5810C80C1D4464F900788BB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5810C8251D4464F900788BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5810C8261D4464F900788BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5810C8281D4464F900788BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/ZKAddressPickerView/PrefixHeader.pch";
+				INFOPLIST_FILE = ZKAddressPickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKAddressPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5810C8291D4464F900788BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/ZKAddressPickerView/PrefixHeader.pch";
+				INFOPLIST_FILE = ZKAddressPickerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKAddressPickerView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5810C82B1D4464F900788BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZKAddressPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKAddressPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKAddressPickerView.app/ZKAddressPickerView";
+			};
+			name = Debug;
+		};
+		5810C82C1D4464F900788BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZKAddressPickerViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKAddressPickerViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKAddressPickerView.app/ZKAddressPickerView";
+			};
+			name = Release;
+		};
+		5810C82E1D4464F900788BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZKAddressPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKAddressPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKAddressPickerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5810C82F1D4464F900788BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZKAddressPickerViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKAddressPickerViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKAddressPickerView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5810C7F51D4464F900788BB7 /* Build configuration list for PBXProject "ZKAddressPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5810C8251D4464F900788BB7 /* Debug */,
+				5810C8261D4464F900788BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5810C8271D4464F900788BB7 /* Build configuration list for PBXNativeTarget "ZKAddressPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5810C8281D4464F900788BB7 /* Debug */,
+				5810C8291D4464F900788BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5810C82A1D4464F900788BB7 /* Build configuration list for PBXNativeTarget "ZKAddressPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5810C82B1D4464F900788BB7 /* Debug */,
+				5810C82C1D4464F900788BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5810C82D1D4464F900788BB7 /* Build configuration list for PBXNativeTarget "ZKAddressPickerViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5810C82E1D4464F900788BB7 /* Debug */,
+				5810C82F1D4464F900788BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5810C7F21D4464F900788BB7 /* Project object */;
+}

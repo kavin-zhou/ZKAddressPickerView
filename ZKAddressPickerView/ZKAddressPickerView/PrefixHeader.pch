@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  ZKAddressPickerView
+//
+//  Created by ZK on 16/7/24.
+//  Copyright © 2016年 ZK. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "ZKGlobalConfig.h"
+
+#endif /* PrefixHeader_pch */
